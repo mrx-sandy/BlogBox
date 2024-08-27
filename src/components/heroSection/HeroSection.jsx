@@ -21,14 +21,14 @@ function HeroSection() {
                             </div>
 
                             {/* Text  */}
-                            <h1 className=' text-3xl text-white font-bold'>BlogBox</h1>
+                            <h1 className=' text-3xl text-white font-bold'>Devknus</h1>
                         </div>
 
                         {/* Paragraph  */}
                         <p
                             style={{ color: mode === 'dark' ? 'white' : 'white' }}
                             className="sm:text-3xl text-xl font-extralight sm:mx-auto ">
-                            Here are some blogs and tutorials contributed by BlogBox.
+                            Here are some blogs and tutorials contributed by Devknus.
                         </p>
                     </div>
 

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineShareAlt, AiOutlineSearch } from 'react-icons/ai'
 import myContext from "../../context/data/myContext";
 import SearchDialog from "../searchDialog/SearchDialog";
-// import ShareDialogBox from "../shareDialogBox/ShareDialogBox";
+import ShareDialogBox from "../shareDialogBox/ShareDialogBox";
 
 export default function Nav() {
     const [openNav, setOpenNav] = React.useState(false);
@@ -83,7 +83,7 @@ export default function Nav() {
                             />
                             {/* Logo Text  */}
                             <span>
-                                BlogBox
+                                Devknus
                             </span>
                         </Typography>
                     </Link>
@@ -98,14 +98,15 @@ export default function Nav() {
 
                         {/* Search Icon */}
                         <div>
-                            {/* <AiOutlineSearch size={20} color="white" />
-                            <SearchDialog/> */}
+                            {/* <AiOutlineSearch size={20} color="white" /> */}
+                            <SearchDialog/>
                         </div>
 
                         {/* Share Icon */}
-                        {/* <div className="hidden lg:block">
-                            <AiOutlineShareAlt size={20} color="white" />
-                        </div> */}
+                        <div className="hidden lg:block">
+                            {/* <AiOutlineShareAlt size={20} color="white" /> */}
+                            <ShareDialogBox/>
+                        </div>
 
                         {/* Admin Profile Pic */}
                         <div>

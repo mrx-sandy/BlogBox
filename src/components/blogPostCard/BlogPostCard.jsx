@@ -33,7 +33,7 @@ function BlogPostCard() {
                rounded-xl overflow-hidden`} 
               >
                 {/* Blog Thumbnail  */}
-                <img className=" w-full" src={'https://sandipgadekar.netlify.app/images/Sandip1.jpg'} alt="blog" />
+                <img className=" w-full" src={'https://firebasestorage.googleapis.com/v0/b/blog-fea71.appspot.com/o/blogimage%2FReact%20Introduction.png?alt=media&token=1ba7496b-2cbc-450c-ab1a-57e19882dc76'} alt="blog" />
 
                 {/* Top Items  */}
                 <div className="p-6">
@@ -52,7 +52,7 @@ function BlogPostCard() {
                       ? 'rgb(226, 232, 240)'
                       : ' rgb(30, 41, 59)'
                   }}>
-                    {'Blog Headline'}
+                    {'React Introduction'}
                   </h1>
 
                   {/* Blog Description  */}
@@ -87,7 +87,7 @@ function BlogPostCard() {
                rounded-xl overflow-hidden`} 
               >
                 {/* Blog Thumbnail  */}
-                <img className=" w-full" src={'https://sandipgadekar.netlify.app/images/Sandip1.jpg'} alt="blog" />
+                <img className=" w-full" src={'https://firebasestorage.googleapis.com/v0/b/blog-fea71.appspot.com/o/blogimage%2FReact%20Introduction.png?alt=media&token=1ba7496b-2cbc-450c-ab1a-57e19882dc76'} alt="blog" />
 
                 {/* Top Items  */}
                 <div className="p-6">
@@ -106,7 +106,7 @@ function BlogPostCard() {
                       ? 'rgb(226, 232, 240)'
                       : ' rgb(30, 41, 59)'
                   }}>
-                    {'Blog Headline'}
+                    {'React Introduction'}
                   </h1>
 
                   {/* Blog Description  */}
@@ -141,7 +141,7 @@ function BlogPostCard() {
                rounded-xl overflow-hidden`} 
               >
                 {/* Blog Thumbnail  */}
-                <img className=" w-full" src={'https://sandipgadekar.netlify.app/images/Sandip1.jpg'} alt="blog" />
+                <img className=" w-full" src={'https://firebasestorage.googleapis.com/v0/b/blog-fea71.appspot.com/o/blogimage%2FReact%20Introduction.png?alt=media&token=1ba7496b-2cbc-450c-ab1a-57e19882dc76'} alt="blog" />
 
                 {/* Top Items  */}
                 <div className="p-6">
@@ -160,7 +160,7 @@ function BlogPostCard() {
                       ? 'rgb(226, 232, 240)'
                       : ' rgb(30, 41, 59)'
                   }}>
-                    {'Blog Headline'}
+                    {'React Introduction'}
                   </h1>
 
                   {/* Blog Description  */}
