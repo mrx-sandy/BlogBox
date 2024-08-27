@@ -98,14 +98,14 @@ export default function Nav() {
 
                         {/* Search Icon */}
                         <div>
-                            <AiOutlineSearch size={20} color="white" />
-                            <SearchDialog/>
+                            {/* <AiOutlineSearch size={20} color="white" />
+                            <SearchDialog/> */}
                         </div>
 
                         {/* Share Icon */}
-                        <div className="hidden lg:block">
+                        {/* <div className="hidden lg:block">
                             <AiOutlineShareAlt size={20} color="white" />
-                        </div>
+                        </div> */}
 
                         {/* Admin Profile Pic */}
                         <div>
