@@ -23,7 +23,7 @@ function Dashboard() {
                     <div className="left">
                         <img
                             className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
-                            src={'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'} alt="profile"
+                            src={'https://media.licdn.com/dms/image/D4D03AQHh7WI8f8faEg/profile-displayphoto-shrink_200_200/0/1715438915678?e=2147483647&v=beta&t=StYxmhDh5x28DCsycUU4yZFoEMOERKKRkaTdDcSljvw'} alt="profile"
                         />
                     </div>
                     <div className="right">
@@ -31,7 +31,7 @@ function Dashboard() {
                             className='text-center font-bold text-2xl mb-2'
                             style={{ color: mode === 'dark' ? 'white' : 'black' }}
                         >
-                            Kamal Nayan Upadhyay
+                            Mr Sandip Dilip Gadekar
                         </h1>
 
                         <h2
@@ -39,7 +39,7 @@ function Dashboard() {
                             Software Developer
                         </h2>
                         <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">knupadhyay784@gmail.com
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">sandipgadekar.work@gmail.com
                         </h2>
                         <h2
                             style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
