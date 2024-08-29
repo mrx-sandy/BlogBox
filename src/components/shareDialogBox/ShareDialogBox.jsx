@@ -4,7 +4,7 @@ import {
     DialogBody,
 } from "@material-tailwind/react";
 import myContext from "../../context/data/myContext";
-import { AiOutlineShareAlt, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillFacebook } from 'react-icons/ai';
+import { AiOutlineShareAlt, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillFacebook , AiFillAndroid, AiFillPhone } from 'react-icons/ai';
 
 export default function ShareDialogBox() {
     const [open, setOpen] = useState(false);
@@ -71,13 +71,26 @@ export default function ShareDialogBox() {
                                             }} />
                                     </a>
                                 </div>
+
+                                <div className="">
+                                    <a href="">
+                                        <AiFillPhone size={35}
+                                            style={{
+                                                color: mode === 'dark'
+                                                    ? 'white'
+                                                    : 'white'
+                                            }} />
+                                    </a>
+                                </div>
+
+                                
                             </div>
 
                         </div>
                     </div>
 
                     <div className=" text-center">
-                        <h1 className=" text-gray-600">Powered By Devknus</h1>
+                        <h1 className=" text-gray-600">Powered By BlogBox</h1>
                     </div>
                 </DialogBody>
             </Dialog>

@@ -90,7 +90,7 @@ export default function Nav() {
                             />
                             {/* Logo Text  */}
                             <span>
-                                Devknus
+                                BlogBox
                             </span>
                         </Typography>
                     </Link>
