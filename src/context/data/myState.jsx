@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import MyContext from './myContext';
-import { collection, deleteDoc, doc, onSnapshot, orderBy, query } from 'firebase/firestore';
+import { collection, deleteDoc, doc, onSnapshot, orderBy, Query, query } from 'firebase/firestore';
 import { fireDb } from '../../firebase/FirebaseConfig';
 import toast from 'react-hot-toast';
 
@@ -30,7 +30,7 @@ function MyState(props) {
     function getAllBlogs() {
         setloading(true);
         try {
-            const q = query(
+            const q = Query(
                 collection(fireDb, "blogPost"),
                 orderBy('time')
             );

@@ -9,6 +9,7 @@ function Dashboard() {
     const { mode, getAllBlog, deleteBlogs } = context;
 
     const navigate = useNavigate();
+     
 
     //* Logout Function 
     const logout = () => {
